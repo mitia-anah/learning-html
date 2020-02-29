@@ -2,7 +2,7 @@
 
 In this repo, we have created a website that may help anyone learn HTML.
 Here are few instructions that we have made to show you the way of how do we start the website.
-click [my website ](https://github.com:mitia-anah/learning-html)if you want to discover more information. 
+click [my website ](https://github.com/mitia-anah/learning-html)if you want to discover more information. 
 
 ## Section of the website
 - Element
