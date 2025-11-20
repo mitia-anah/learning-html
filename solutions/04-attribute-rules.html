@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Attribute Rules</title>
+    <link rel="stylesheet" href="../resources/sections.css">
+  </head>
+  <body>
+    <header>
+      <h1>Attribute Rules Page</h1>
+    </header>
+    
+    <nav>
+      <a href="05-list-of-rules.html">Go back to the list of rules.</a>
+    </nav>
+    
+    <article>
+      <header>
+        <h2>Understanding HTML Attributes</h2>
+      </header>
+      
+      <section>
+        <h3>What are HTML Attributes?</h3>
+        <p>
+          HTML attributes provide additional information about HTML elements. 
+          They are always specified in the start tag and usually come in name/value pairs like <code>name="value"</code>.
+          Attributes modify the default behavior of an element or provide metadata.
+        </p>
+      </section>
+      
+      <section>
+        <h3>Common Attribute Rules</h3>
+        <ol>
+          <li><strong>Always use lowercase for attribute names</strong> - Attribute names should be in lowercase (e.g., <code>class="main"</code> not <code>CLASS="main"</code>)</li>
+          <li><strong>Always quote attribute values</strong> - Use quotes around all attribute values, even if they don't contain spaces</li>
+          <li><strong>Use double quotes, not single quotes</strong> - While both work, double quotes are the HTML standard (e.g., <code>href="page.html"</code>)</li>
+          <li><strong>No spaces around the = sign</strong> - Write <code>id="header"</code> not <code>id = "header"</code></li>
+          <li><strong>Boolean attributes don't need values</strong> - For attributes like <code>disabled</code>, <code>required</code>, just include the name</li>
+          <li><strong>Separate multiple attributes with spaces</strong> - Example: <code>&lt;input type="text" name="username" required&gt;</code></li>
+          <li><strong>Use meaningful values</strong> - Choose descriptive names for ids and classes</li>
+        </ol>
+      </section>
+      
+      <section>
+        <h3>Examples</h3>
+        
+        <h4>Correct Usage:</h4>
+        <ul>
+          <li><code>&lt;a href="https://example.com" title="Visit Example"&gt;Link&lt;/a&gt;</code></li>
+          <li><code>&lt;img src="photo.jpg" alt="A beautiful sunset" width="300"&gt;</code></li>
+          <li><code>&lt;input type="email" name="email" required&gt;</code></li>
+          <li><code>&lt;div class="container" id="main-content"&gt;</code></li>
+        </ul>
+        
+        <h4>Incorrect Usage:</h4>
+        <ul>
+          <li><code>&lt;a HREF=page.html&gt;Link&lt;/a&gt;</code> - uppercase and unquoted</li>
+          <li><code>&lt;img src = 'photo.jpg'&gt;</code> - spaces around equals and single quotes</li>
+          <li><code>&lt;input type="email" required="required"&gt;</code> - boolean attribute doesn't need value</li>
+          <li><code>&lt;div class=main content&gt;</code> - unquoted value with space</li>
+        </ul>
+      </section>
+    </article>
+    
+    <nav>
+      ←
+      <a href="../index.html">Go back to the index</a>
+    </nav>
+    
+    <footer>
+      <p>
+        <a href="mailto:rratsianompo@gmail.com">Email me for more information</a>
+      </p>
+    </footer>
+  </body>
+</html>
